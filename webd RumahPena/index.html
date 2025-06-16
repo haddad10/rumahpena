@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donasi Juz Amma Metode Pena - Rumah Pena</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">Rumah Pena</a>
+            <ul class="navbar-nav">
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#impact">Dampak Donasi</a></li>
+                <li><a href="#schools">Sekolah Penerima</a></li>
+                <li><a href="#donate" class="btn btn-primary">Donasi Sekarang!</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Rumah Pena Logo" class="logo">
+            <h1>Donasi Juz Amma Metode Pena</h1>
+            <p>Membuka Akses Pendidikan Al-Quran untuk Generasi Penerus Bangsa</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2>Tentang Program Donasi Juz Amma Metode Pena</h2>
+            <p>Kami dari Rumah Pena memiliki visi untuk mencetak generasi Qurani yang berakhlak mulia dan berwawasan luas. Salah satu pilar utama dalam mewujudkan visi tersebut adalah melalui penguasaan Al-Quran sejak dini. Program "Juz Amma Metode Pena" dirancang khusus untuk mempermudah anak-anak sekolah agama dalam menghafal dan memahami Juz Amma dengan cara yang interaktif dan menyenangkan.</p>
+            <p>Metode Pena fokus pada pembelajaran yang sistematis, didukung dengan modul dan bimbingan dari pengajar yang berkompeten. Namun, masih banyak sekolah agama di pelosok negeri yang memiliki keterbatasan akses terhadap sumber daya pendidikan berkualitas, termasuk modul Juz Amma ini.</p>
+            <p>Oleh karena itu, kami mengajak Anda, para dermawan yang budiman, untuk bersama-sama menjadi bagian dari gerakan kebaikan ini. Setiap donasi yang Anda berikan akan sangat berarti dalam penyediaan modul, buku, dan fasilitas penunjang lainnya agar Metode Pena dapat menjangkau lebih banyak sekolah dan santri yang membutuhkan.</p>
+            <p>Mari bersama-sama kita hadirkan senyum di wajah anak-anak Indonesia dan jadikan mereka generasi penerus yang mencintai Al-Quran. Donasi Anda adalah investasi akhirat yang tak ternilai harganya.</p>
+        </section>
+
+        <section id="impact" class="container">
+            <h2>Dampak Donasi Anda</h2>
+            <ul>
+                <li>Memungkinkan distribusi modul "Juz Amma Metode Pena" ke sekolah-sekolah agama yang kurang mampu.</li>
+                <li>Mendukung pelatihan guru dan pengajar agar mampu menerapkan Metode Pena secara optimal.</li>
+                <li>Menyediakan alat tulis, buku, dan perlengkapan belajar bagi santri.</li>
+                <li>Membantu menciptakan lingkungan belajar Al-Quran yang kondusif dan inspiratif.</li>
+            </ul>
+        </section>
+
+        <section id="schools" class="container">
+            <h2>Sekolah-Sekolah Penerima Manfaat</h2>
+            <div id="schools-list" class="grid-container">
+                <!-- Dynamic school list will be loaded here by JavaScript -->
+                <div class="loading-spinner"></div>
+                <p class="loading-message">Memuat daftar sekolah...</p>
+            </div>
+        </section>
+
+        <section id="donate" class="container">
+            <h2>Mari Berdonasi Sekarang</h2>
+            <p>Setiap Rupiah yang Anda sumbangkan akan membuka pintu ilmu dan keberkahan bagi anak-anak kita. Salurkan donasi terbaik Anda melalui:</p>
+            <!-- Placeholder for Payment Gateway Integration -->
+            <div class="payment-gateway-placeholder">
+                <p>Form Donasi (akan diintegrasikan dengan Payment Gateway)</p>
+                <form>
+                    <label for="name">Nama Lengkap:</label>
+                    <input type="text" id="name" name="name" required>
+                    <div class="error-message" id="name-error"></div>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="error-message" id="email-error"></div>
+
+                    <label for="amount">Jumlah Donasi (IDR):</label>
+                    <input type="number" id="amount" name="amount" min="10000" required>
+                    <div class="error-message" id="amount-error"></div>
+
+                    <button type="submit">Lanjutkan ke Pembayaran</button>
+                </form>
+            </div>
+            <p>Terima kasih atas kepedulian dan kedermawanan Anda. Semoga Allah SWT membalas setiap kebaikan dengan pahala yang berlipat ganda.</p>
+        </section>
+    </main>
+
+    <button id="back-to-top" title="Kembali ke Atas">&#9650;</button>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rumah Pena. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
